@@ -5,25 +5,53 @@ body{
 }
 
 .container{
-    background-color: #FFFFFF;
     margin: auto;
     width: 1000px;
+    padding: 10px;
    
 }
 header{
-    width: 1000px;;
+    background-color: #FFFFFF; 
+    margin-bottom: 20px;
+    padding: 10px;
 }
 
-main{  
-    width: 800px;
+
+main{ 
+    width: 630px;
     float: left;
+    margin-right: 10px;
+    
+}
+
+.video-description-1{
+    background-color: #FFFFFF;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.video-description-details{
+    background-color: #FFFFFF;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.comments{
+    background-color: #FFFFFF;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    padding: 10px;
 }
 
 aside{
-    width: 200px;
+    background-color: #FFFFFF;
+    width: 340px;
     float:right;
+    padding: 10px;
 }
 footer{
+    background-color: #FFFFFF;
     clear: both;
+    padding: 10px;
 }
 
