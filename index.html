@@ -3,19 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Youtube-clone</title>
 </head>
 <body>
-    <section>
-      <div>
-        <header>
+   <header>
+       <div class="logo-nav-bar">
+           <nav>
+               <div></div>
+               <div></div>
+               <div></div>
+           </nav>
+           <img class="logo" src="img/téléchargement.png" alt="youtube logo">
+       </div>
 
-        </header>
-        <nav>
+       <div class="search-nav-bar">
+            <form action="">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+       </div>
 
-        </nav>
-    </div>
-    </section>
+       <div class="navbar-right-buttons">
+           <button type="submit"><img src="img/upload-icon.png" alt="upload" class="upload-icon"></button>
+           <button>Sign in</button>
+       </div>
+   </header>
+
     <main>
         <section>
             <video width="320" height="240" controls>
@@ -23,20 +37,53 @@
                 Your browser does not support the video tag.
             </video>
             <div class="video-description">
-                <h3 class ="video-title"></h3>
-                <img src="" alt="" class="avatar">
-                <p class="avatar-name">Odin Project</p>
-                <h4 class="number-of-views">5,000 Views</h4>
-                <i class="like-icon"></i>
-                <i class="dislike-icon"></i>
-                <button class="share-button"></button>
-                <button class="subscribe-button"></button>
-            </div>  
+                <div class="video-description-1">
+                    <h3 class ="video-title"></h3>
+               
+                    <div class="#">
+                        <img src="" alt="" class="avatar">
+                        <p class="avatar-name">Odin Project</p>
+                        <div class="subscribe-button">
+                            <button class="subscribe-button-red" src="img/subscribe-button.jpg"></button>
+                            <button class="number-of-suscribers">750</button>
+                        </div>
+                    </div>
+            
+                    <h4 class="number-of-views">5,000 Views</h4>
+                    <hr>
+
+                    <div class="video-description-icons">
+                        <div class="left-description-icons">
+                            <img src="" alt="" class="add-to-icon">
+                            <p><a href="">Add to</a></p>
+                            <img src="img/youtube-share-button.png" alt="" class="share-icon">
+                            <p><a href="">Share</a></p>
+                            <img src="" alt="" class="more-icon">
+                            <p><a href="">More</a></p>
+                        </div>
+        
+                        <div class="right-description-icons">
+                            <img src="img/youtube-like-button.png" alt="I like this">
+                            <p>845</p>
+                            <img src="" alt="I dislike this">
+                            <p>25</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="video-description-details">
+                    <h4 class="video-description-details-published-date">Published on Feb 27, 2014</h4>
+                    <p class="video-information">How do you contribute to open source? In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github. I'll also describe what kinds of contributions open source software projects are typically looking for. As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails. You can find more information about that project at http://theodinproject.com</p>
+                    <hr>
+                    <p>SHOW MORE</p>
+                </div>
+            </div> 
         </section>
-        <section>
 
 
-
+        <section class="comments">
+            <div></div>
         </section>
 
     </main>
