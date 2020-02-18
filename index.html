@@ -5,15 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Youtube-clone</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://kit.fontawesome.com/668d372fa7.js" crossorigin="anonymous"></script> 
 </head>
 <body>
+  <div class="container">
    <header>
        <div class="logo-nav-bar">
-           <nav>
-               <div></div>
-               <div></div>
-               <div></div>
-           </nav>
+           <i class="fas fa-bars"></i>
            <img class="logo" src="img/téléchargement.png" alt="youtube logo">
        </div>
 
@@ -25,7 +24,7 @@
        </div>
 
        <div class="navbar-right-buttons">
-           <button type="submit"><img src="img/upload-icon.png" alt="upload" class="upload-icon"></button>
+           <button type="submit"><i class="fas fa-upload"></i></button>
            <button>Sign in</button>
        </div>
    </header>
@@ -44,7 +43,7 @@
                         <img src="" alt="" class="avatar">
                         <p class="avatar-name">Odin Project</p>
                         <div class="subscribe-button">
-                            <button class="subscribe-button-red" src="img/subscribe-button.jpg"></button>
+                            <button class="subscribe-button-red"><img src="img/subscribing.png" alt="Subscribe" width= "50px" height="15px"></button>
                             <button class="number-of-suscribers">750</button>
                         </div>
                     </div>
@@ -54,18 +53,19 @@
 
                     <div class="video-description-icons">
                         <div class="left-description-icons">
-                            <img src="" alt="" class="add-to-icon">
+                            <i class="fas fa-plus"></i>
                             <p><a href="">Add to</a></p>
-                            <img src="img/youtube-share-button.png" alt="" class="share-icon">
+                            <!-- <img src="img/youtube-share-button.png" alt="" class="share-icon"> -->
+                            <i class="fas fa-share"></i>
                             <p><a href="">Share</a></p>
-                            <img src="" alt="" class="more-icon">
+                            <i class="fas fa-ellipsis-h"></i>
                             <p><a href="">More</a></p>
                         </div>
         
                         <div class="right-description-icons">
-                            <img src="img/youtube-like-button.png" alt="I like this">
+                            <i class="fas fa-thumbs-up"></i>
                             <p>845</p>
-                            <img src="" alt="I dislike this">
+                            <i class="fas fa-thumbs-down"></i>
                             <p>25</p>
                         </div>
 
@@ -91,6 +91,8 @@
         <div class="sidebar-headings">
             <p>Up Next</p>
             <i class="autoplay-icon">Autoplay</i>
+            <i class="fas fa-info"></i>
+            <i class="fas fa-toggle-on"></i>
         </div>
         <div class="recommended-videos">
             <img src="" alt="" class="sidebar-thumbnails">
@@ -125,6 +127,37 @@
             </div>
         </div>
     </aside>
-    
+    <footer>
+        <div>
+            <img src="img/téléchargement.png" alt="youtube-logo">
+            <button type="">Language: English <i class="fas fa-caret-down"></i></button>
+            <button type="">Location: Africa <i class="fas fa-caret-down"></i></button>
+            <button type="">Restricted Mode: Off <i class="fas fa-caret-down"></i></button>
+            <button type=""><i class="fas fa-hourglass-end"></i> History</button>
+            <button type="">Help <i class="far fa-question-circle"></i></button>
+        </div>
+        <hr>
+        <div>
+            <ul>
+                <li><a href="#">About</a> </li>
+                <li><a href="#">Press</a> </li>
+                <li><a href="#">Copyright</a></li>
+                <li><a href="#">Advertise</a></li>
+                <li><a href="#">creators</a></li>
+                <li><a href="#">developers</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Policy & Safety</a></li>
+                <li><a href="#">Test New Features</a></li>
+                
+            </ul>
+        </div>        
+
+    </footer>
+  </div> 
 </body>
 </html>

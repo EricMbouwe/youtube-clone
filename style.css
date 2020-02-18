@@ -1,0 +1,29 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color:#EEEEEE;
+}
+
+.container{
+    background-color: #FFFFFF;
+    margin: auto;
+    width: 1000px;
+   
+}
+header{
+    width: 1000px;;
+}
+
+main{  
+    width: 800px;
+    float: left;
+}
+
+aside{
+    width: 200px;
+    float:right;
+}
+footer{
+    clear: both;
+}
+
