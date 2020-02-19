@@ -38,9 +38,7 @@ header{
     /*border: 1px solid red;*/
 }
 
-.subscribe-button{
-   
-
+.subscribe-button{   
 }
 .subscribe-button-red{
     color: #EEEEEE;
@@ -79,10 +77,16 @@ header{
 }
 .nav-bar-right-buttons{
     float: right;
-    margin: 13px 0 0px 250px;
+    margin: 13px 0 0px 240px;
 }
 .sign-in-button{
     margin-left: 10px;
+    background-color: blue;
+    color: #EEEEEE;
+    padding : 4px;
+    border: none;
+    width: 50px;
+    border-radius: 3px;
 }
 
 
@@ -106,7 +110,7 @@ main{
 .video-author-details{
     display: flex;
     margin: 0;
-    border: 1px solid green;
+    /*border: 1px solid green;*/
     
 
 }
@@ -115,8 +119,8 @@ main{
     font-size: 25px;
 }
 
-h2{    
-    
+.number-of-views{    
+    margin: 50px 0 0 500px;
 }
 
 .video-description-main{
@@ -130,17 +134,16 @@ h2{
     display: inline-block;
 }
 .avatar-subscribe-right{
-    /* margin-left: 10px; */
-    border: 1px solid purple;
+    /*border: 1px solid purple;*/
     display: inline-block;
+    padding-bottom: 12px;
 }
-.avatar{
-    /* margin-top: 22px; */
-
+.avatar-pic{
+    margin: 11px 10px 0 15px ;
 }
 .avatar-name{
-    /* margin-bottom: 5px; */
-    border: 1px solid red;
+    margin-bottom: 5px;
+    /*border: 1px solid red;*/
 }
 
 
@@ -178,6 +181,7 @@ aside{
     width: 340px;
     float:right;
     padding: 15px;
+    margin-bottom: 30px;
 }
 
 .sidebar-headings{
@@ -222,9 +226,7 @@ aside{
 footer{
     background-color: #FFFFFF;
     clear: both;
-    padding-left: 70px;
-    padding-right: 70px;
-    padding-bottom: 50px;  
+    padding: 20px 70px 50px 70px; 
 }
 
 .footer-start{
