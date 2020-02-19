@@ -39,6 +39,7 @@ header{
 }
 
 .subscribe-button{
+   
 
 }
 .subscribe-button-red{
@@ -103,21 +104,45 @@ main{
 }
 
 .video-author-details{
+    display: flex;
+    margin: 0;
+    border: 1px solid green;
+    
 
 }
+.video-title{
+    margin: 10px;
+    font-size: 25px;
+}
 
-h2{
-    text-align: end;
+h2{    
+    
 }
 
 .video-description-main{
     background-color: #FFFFFF;
     margin-top: 5px;
     padding: 10px;
+    
 }
+
 .video-left-description-icons{
     display: inline-block;
 }
+.avatar-subscribe-right{
+    /* margin-left: 10px; */
+    border: 1px solid purple;
+    display: inline-block;
+}
+.avatar{
+    /* margin-top: 22px; */
+
+}
+.avatar-name{
+    /* margin-bottom: 5px; */
+    border: 1px solid red;
+}
+
 
 .icon1{
     display: inline-block;
@@ -135,6 +160,7 @@ h2{
     background-color: #FFFFFF;
     margin-top: 10px;
     padding: 10px;
+   
 }
 
 .video-comments{
@@ -155,7 +181,7 @@ aside{
 }
 
 .sidebar-headings{
-    margin-bottom: 10spx;
+    margin-bottom: 10px;
 }
 .sidebar-headings span{
     font-weight: bold;
