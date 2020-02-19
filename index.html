@@ -1,145 +1,228 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Youtube-clone</title>
     <link rel="stylesheet" href="style.css" type="text/css">
-    <script src="https://kit.fontawesome.com/668d372fa7.js" crossorigin="anonymous"></script> 
+    <script src="https://kit.fontawesome.com/668d372fa7.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-  <div class="container">
-   <header>
-       <div class="logo-nav-bar">
-           <i class="fas fa-bars"></i>
-           <img class="logo" src="img/téléchargement.png" alt="youtube logo">
-       </div>
 
-       <div class="search-nav-bar">
-            <form action="">
+    <header>
+        <div class="logo-nav-bar">
+            <!--i class="fas fa-bars"></i-->
+            <img id="img-logo" src="img/téléchargement.png" alt="youtube logo">
+        </div>
+
+        <div class="search-nav-bar">
+            <form action="#">
                 <input type="text" placeholder="Search.." name="search">
-                <button type="submit"><i class="fa fa-search"></i></button>
+                <button class="nav-bar-search-button" type="submit"><i class="fa fa-search"></i></button>
             </form>
-       </div>
+        </div>
 
-       <div class="navbar-right-buttons">
-           <button type="submit"><i class="fas fa-upload"></i></button>
-           <button>Sign in</button>
-       </div>
-   </header>
+        <div class="nav-bar-right-buttons">
+            <button type="submit"><i class="fas fa-upload"></i></button>
+            <button class="sign-in-button">Sign in</button>
+        </div>
+    </header>
 
-    <main>
-        <section>
-            <video width="320" height="240" controls>
-                <source src="https://www.youtube.com/watch?v=V74l_zS1x8E" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <div class="video-description">
-                <div class="video-description-1">
-                    <h3 class ="video-title"></h3>
-               
-                    <div class="#">
-                        <img src="" alt="" class="avatar">
-                        <p class="avatar-name">Odin Project</p>
-                        <div class="subscribe-button">
-                            <button class="subscribe-button-red"><img src="img/suscribe-button1.jpg" alt="Subscribe" width= "50px" height="15px"></button>
-                            <button class="number-of-suscribers">750</button>
-                        </div>
-                    </div>
-            
-                    <h4 class="number-of-views">5,000 Views</h4>
-                    <hr>
-
-                    <div class="video-description-icons">
-                        <div class="left-description-icons">
-                            <i class="fas fa-plus"></i>
-                            <p><a href="">Add to</a></p>
-                            <i class="fas fa-share"></i>
-                            <p><a href="">Share</a></p>
-                            <i class="fas fa-ellipsis-h"></i>
-                            <p><a href="">More</a></p>
-                        </div>
-        
-                        <div class="right-description-icons">
-                            <i class="fas fa-thumbs-up"></i>
-                            <p>845</p>
-                            <i class="fas fa-thumbs-down"></i>
-                            <p>25</p>
-                        </div>
-
-                    </div>
+    <div class="container">
+        <main>
+            <section>
+                <div class="embeded-video">
+                    <iframe src="https://www.youtube.com/embed/gNnKROaiLGA" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
                 </div>
 
-                <div class="video-description-details">
-                    <h4 class="video-description-details-published-date">Published on Feb 27, 2014</h4>
-                    <p class="video-information">How do you contribute to open source? In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github. I'll also describe what kinds of contributions open source software projects are typically looking for. As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails. You can find more information about that project at http://theodinproject.com</p>
-                    <hr>
-                    <p>SHOW MORE</p>
+                <div class="video-description">
+                    <div class="video-description-main">
+                        <h1 class="video-title">This is the title of this video</h1>
+
+                        <div class="video-author-details">
+                            <a href="#"><img src="" alt="avatar-pic" class="avatar"></a>
+                            <a href="#"><p class="avatar-name">Odin Project</p></a>
+
+                            <a href="#">
+                                <div class="subscribe-button">
+                                    <!--a href="#"><img src="img/suscribe-button1.jpg" alt="subscribe-btn"></a-->
+                                    <button class="subscribe-button-red">Subscribe</button>
+                                    <button class="number-of-suscribers">750</button>
+                                </div>
+                            </a>
+                        </div>
+
+                        <h2 class="number-of-views">5,000 Views</h2>
+                        <hr>
+
+                        <div class="video-description-icons">
+                            <div class="video-left-description-icons">
+                                <a class="icon-desc" href="#"><div class="icon1"><i class="fas fa-plus"></i></div><span>Add to</span></a>
+                                <a class="icon-desc" href="#"><div class="icon1"><i class="fas fa-share"></i></div><span>Share</span></a>
+                                <a class="icon-desc" href="#"><div class="icon1"><i class="fas fa-ellipsis-h"></i></div><span>More</span></a>
+                            </div>
+
+                            <div class="video-right-description-icons">
+                                <a class="icon-desc" href="#"><div class="icon1"><i class="fas fa-thumbs-up"></i></div><span>845</span></a>
+                                <a class="icon-desc" href="#"><div class="icon1"><i class="fas fa-thumbs-down"></i></div><span>25</span></a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <article class="video-description-details">
+                        <h4 class="video-description-details-published-date">Published on Feb 27, 2014</h4>
+                        <p class="video-information">How do you contribute to open source? In this video, I'll describe
+                            the easiest way to make a simple contribution to an open source project -- without using the
+                            command line, a text editor, "forking a repo", or even touching Git outside of Github. I'll
+                            also describe what kinds of contributions open source software projects are typically
+                            looking for. As an example, I use submitting a student solution to a web development
+                            exercise from The Odin Project, a free online curriculum for learning web development with
+                            Ruby on Rails. You can find more information about that project at http://theodinproject.com
+                        </p>
+
+                        <hr>
+
+                        <p class="show-more">SHOW MORE</p>
+                    </article>
                 </div>
-            </div> 
-        </section>
+            </section>
 
+            <section class="video-comments">
+                <div>
+                    <p>loading...</p>
+                </div>
+            </section>
 
-        <section class="comments">
-            <div>
-                <p>loading...</p>
-            </div>
-        </section>
+        </main>
 
-    </main>
+        <aside>
+            <div class="sidebar-headings">
+                <span>Up next</span>
+                <span class="autoplay">Autoplay</span>
+                <i class="fas fa-info"></i>
+                <i class="fas fa-toggle-on"></i>
+            </div>
 
-    <aside>
-        <div class="sidebar-headings">
-            <p>Up Next</p>
-            <i class="autoplay-icon">Autoplay</i>
-            <i class="fas fa-info"></i>
-            <i class="fas fa-toggle-on"></i>
-        </div>
-        <div class="recommended-videos">
-            <img src="" alt="" class="sidebar-thumbnails">
-            <div class="thumbnail-description">
-                <p class="thumb-title"></p>
-                <p class="thumb-avatar-name"></p>
-                <p class="thumb-number-of-views">3,000 Views</p>
+            <div class="recommended-videos">
+                <img src="" alt="" class="sidebar-thumbnails">
+                <div class="thumbnail-description">
+                    <p class="thumb-title"></p>
+                    <p class="thumb-avatar-name"></p>
+                    <p class="thumb-number-of-views">3,000 Views</p>
+                </div>
             </div>
-        </div>
-        <div class="recommended-videos">
-            <img src="" alt="" class="sidebar-thumbnails">
-            <div class="thumbnail-description">
-                <p class="thumb-title"></p>
-                <p class="thumb-avatar-name"></p>
-                <p class="thumb-number-of-views">3,000 Views</p>
+
+            <hr>
+
+            <div class="recommended-videos">
+                <img src="" alt="" class="sidebar-thumbnails">
+                <div class="thumbnail-description">
+                    <p class="thumb-title"></p>
+                    <p class="thumb-avatar-name"></p>
+                    <p class="thumb-number-of-views">3,000 Views</p>
+                </div>
             </div>
-        </div>
-        <div class="recommended-videos">
-            <img src="" alt="" class="sidebar-thumbnails">
-            <div class="thumbnail-description">
-                <p class="thumb-title"></p>
-                <p class="thumb-avatar-name"></p>
-                <p class="thumb-number-of-views">3,000 Views</p>
+            <div class="recommended-videos">
+                <img src="" alt="" class="sidebar-thumbnails">
+                <div class="thumbnail-description">
+                    <p class="thumb-title"></p>
+                    <p class="thumb-avatar-name"></p>
+                    <p class="thumb-number-of-views">3,000 Views</p>
+                </div>
             </div>
-        </div>
-        <div class="recommended-videos">
-            <img src="" alt="" class="sidebar-thumbnails">
-            <div class="thumbnail-description">
-                <p class="thumb-title"></p>
-                <p class="thumb-avatar-name"></p>
-                <p class="thumb-number-of-views">3,000 Views</p>
+            <div class="recommended-videos">
+                <img src="" alt="" class="sidebar-thumbnails">
+                <div class="thumbnail-description">
+                    <p class="thumb-title"></p>
+                    <p class="thumb-avatar-name"></p>
+                    <p class="thumb-number-of-views">3,000 Views</p>
+                </div>
             </div>
-        </div>
-    </aside>
+            <div class="recommended-videos">
+                <img src="" alt="" class="sidebar-thumbnails">
+                <div class="thumbnail-description">
+                    <p class="thumb-title"></p>
+                    <p class="thumb-avatar-name"></p>
+                    <p class="thumb-number-of-views">3,000 Views</p>
+                </div>
+            </div>
+            <div class="recommended-videos">
+                <img src="" alt="" class="sidebar-thumbnails">
+                <div class="thumbnail-description">
+                    <p class="thumb-title"></p>
+                    <p class="thumb-avatar-name"></p>
+                    <p class="thumb-number-of-views">3,000 Views</p>
+                </div>
+            </div>
+            <div class="recommended-videos">
+                <img src="" alt="" class="sidebar-thumbnails">
+                <div class="thumbnail-description">
+                    <p class="thumb-title"></p>
+                    <p class="thumb-avatar-name"></p>
+                    <p class="thumb-number-of-views">3,000 Views</p>
+                </div>
+            </div>
+            <div class="recommended-videos">
+                <img src="" alt="" class="sidebar-thumbnails">
+                <div class="thumbnail-description">
+                    <p class="thumb-title"></p>
+                    <p class="thumb-avatar-name"></p>
+                    <p class="thumb-number-of-views">3,000 Views</p>
+                </div>
+            </div>
+            <div class="recommended-videos">
+                <img src="" alt="" class="sidebar-thumbnails">
+                <div class="thumbnail-description">
+                    <p class="thumb-title"></p>
+                    <p class="thumb-avatar-name"></p>
+                    <p class="thumb-number-of-views">3,000 Views</p>
+                </div>
+            </div>
+            <div class="recommended-videos">
+                <img src="" alt="" class="sidebar-thumbnails">
+                <div class="thumbnail-description">
+                    <p class="thumb-title"></p>
+                    <p class="thumb-avatar-name"></p>
+                    <p class="thumb-number-of-views">3,000 Views</p>
+                </div>
+            </div>
+            <div class="recommended-videos">
+                <img src="" alt="" class="sidebar-thumbnails">
+                <div class="thumbnail-description">
+                    <p class="thumb-title"></p>
+                    <p class="thumb-avatar-name"></p>
+                    <p class="thumb-number-of-views">3,000 Views</p>
+                </div>
+            </div>
+
+            <hr>
+
+            <p class="show-more">SHOW MORE</p>
+        </aside>
+    </div>
+
     <footer>
-        <div>
-            <img src="img/téléchargement.png" alt="youtube-logo">
-            <button type="">Language: English <i class="fas fa-caret-down"></i></button>
-            <button type="">Location: Africa <i class="fas fa-caret-down"></i></button>
-            <button type="">Restricted Mode: Off <i class="fas fa-caret-down"></i></button>
-            <button type=""><i class="fas fa-hourglass-end"></i> History</button>
-            <button type="">Help <i class="far fa-question-circle"></i></button>
+        <div class="footer-start">
+            <img id="img-logo" src="img/téléchargement.png" alt="youtube-logo">
+            <div class="footer-buttons">
+                <button type="">Language: English <i class="fas fa-caret-down"></i></button>
+                <button type="">Location: Africa <i class="fas fa-caret-down"></i></button>
+                <button type="">Restricted Mode: Off <i class="fas fa-caret-down"></i></button>
+                <button type=""><i class="fas fa-hourglass-end"></i> History</button>
+                <button type="">Help <i class="far fa-question-circle"></i></button>
+            </div>
         </div>
+
+
         <hr>
-        <div>
+
+        <div class="footer-links1">
             <ul>
                 <li><a href="#">About</a> </li>
                 <li><a href="#">Press</a> </li>
@@ -149,17 +232,17 @@
                 <li><a href="#">developers</a></li>
             </ul>
         </div>
-        <div>
+
+        <div class="footer-links2">
             <ul>
                 <li><a href="#">Terms</a></li>
                 <li><a href="#">Privacy</a></li>
                 <li><a href="#">Policy & Safety</a></li>
                 <li><a href="#">Test New Features</a></li>
-                
             </ul>
-        </div>        
-
+        </div>
     </footer>
-  </div> 
+
 </body>
+
 </html>
