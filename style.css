@@ -143,6 +143,9 @@ h2{
     margin-bottom: 60px;
     padding: 10px;
 }
+.video-comments p{
+    text-align: center;
+}
 
 aside{
     background-color: #FFFFFF;
@@ -152,6 +155,10 @@ aside{
 }
 
 .sidebar-headings{
+    margin-bottom: 10spx;
+}
+.sidebar-headings span{
+    font-weight: bold;
 }
 
 .autoplay{
@@ -159,6 +166,31 @@ aside{
 }
 .sidebar-headings i{
     margin-left: 10px;
+}
+.sidebar-thumbnails{
+    width: 180px;
+    height: 100px;  
+    
+}
+.thumbnail-description{
+    width: 150px;
+    margin-left: 10px;
+    float: right;
+   
+
+}
+.recommended-videos{
+    display: flex;
+    margin-bottom: 12px;
+}
+.thumb-title{
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+.thumb-number-of-views,
+.thumb-avatar-name{
+    font-size: 10px;
+    margin: 0;
 }
 
 footer{
