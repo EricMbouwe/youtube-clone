@@ -32,7 +32,7 @@ header{
     padding: 5px;
 }
 
-#img-logo{
+.img-logo{
     width: 100px;
     height: 45px;
     /*border: 1px solid red;*/
@@ -230,7 +230,7 @@ footer{
 .footer-start{
     display: flex;
 }
-footer #img-logo{
+footer .img-logo{
     margin-top: 1px;
     margin-bottom: 0;
 }
