@@ -16,6 +16,9 @@ a, ul {
 h1, h2, h3, h4{
     margin: 0;
 }
+h1{
+    display: none;
+}
 
 /*STYLE*/
 .container{
@@ -62,23 +65,29 @@ header{
 }
 
 .search-nav-bar{
-    margin: 10px 0 0px 200px;
+    margin: 10px 0 0 150px;
+   
 }
 .search-nav-bar input{
-    width: 550px;
+    width: 600px;
     padding: 5px;
+
 }
 .nav-bar-search-button{
-    margin-left: 0;
+    margin-left: -4px;
     width: 50px;
     padding: 5px;
+    
 }
 .nav-bar-right-buttons{
     float: right;
-    margin: 13px 0 0px 240px;
+    margin: 13px 0 0px 190px;
+}
+.navbar-right-icons{
+    margin-left: 10px;
 }
 .sign-in-button{
-    margin-left: 10px;
+    margin-left: 10px; 
     background-color: blue;
     color: #EEEEEE;
     padding : 4px;
@@ -88,7 +97,8 @@ header{
 }
 
 
-main{ 
+
+.main{ 
     width: 870px;
     float: left;
     margin-right: 10px;
