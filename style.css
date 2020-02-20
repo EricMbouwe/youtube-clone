@@ -43,7 +43,7 @@ header {
 	/*border: 1px solid red;*/
 }
 
-.subscribe-button-red {
+.subscribe-btn-red {
 	color: #eeeeee;
 	background-color: red;
 	padding: 4px;
@@ -52,9 +52,9 @@ header {
 	border-radius: 3px;
 	margin-right: 0;
 }
-.number-of-suscribers {
+.number-of-suscribers-btn {
 	color: rgb(41, 38, 38);
-	background-color: #eeeeee;
+	background-color: white;
 	padding: 4px;
 	border: none;
 	width: 40px;
@@ -71,16 +71,16 @@ header {
 }
 .search-nav-bar input {
 	width: 600px;
-    padding: 7px;
-    border: 1px solid #c0c0c0;
-    border-radius: 2px;
+	padding: 7px;
+	border: 1px solid #c0c0c0;
+	border-radius: 2px;
 }
 .nav-bar-search-button {
 	margin-left: -10px;
 	width: 60px;
-    padding: 7px;
-    border: 1px solid #c0c0c0;
-    border-radius: 2px;
+	padding: 7px;
+	border: 1px solid #c0c0c0;
+	border-radius: 2px;
 }
 .nav-bar-right-buttons {
 	float: right;
@@ -91,7 +91,7 @@ header {
 }
 .sign-in-button {
 	margin-left: 10px;
-	background-color: blue;
+	background-color: #bf360c;
 	color: #eeeeee;
 	padding: 4px;
 	border: none;
@@ -112,7 +112,8 @@ header {
 .embeded-video iframe {
 	padding: 0;
 	width: 870px;
-	height: 480px;
+    height: 480px;
+    border: none;
 }
 
 .video-author-details {
@@ -130,7 +131,7 @@ header {
 }
 
 .video-description-main {
-	background-color: #ffffff;
+	/*background-color: #ffffff;*/
 	margin-top: 5px;
 	padding: 10px;
 }
@@ -164,13 +165,13 @@ header {
 }
 
 .video-description-details {
-	background-color: #ffffff;
+	/*background-color: #ffffff;*/
 	margin-top: 10px;
 	padding: 10px;
 }
 
 .video-comments {
-	background-color: #ffffff;
+	/*background-color: #ffffff;*/
 	margin-top: 10px;
 	margin-bottom: 60px;
 	padding: 10px;
@@ -180,7 +181,7 @@ header {
 }
 
 aside {
-	background-color: #ffffff;
+	/*background-color: #ffffff;*/
 	width: 340px;
 	float: right;
 	padding: 15px;
