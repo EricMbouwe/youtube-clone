@@ -35,6 +35,7 @@ header {
 	display: flex;
 	background-color: #ffffff;
 	padding: 5px;
+	width: 100%;
 }
 
 .img-logo {
@@ -49,7 +50,8 @@ header {
 	padding: 4px;
 	border: none;
 	width: 100px;
-	border-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border-top-left-radius: 3px;
 	margin-right: 0;
 }
 .number-of-suscribers-btn {
@@ -58,8 +60,9 @@ header {
 	padding: 4px;
 	border: none;
 	width: 40px;
-	border-radius: 3px;
-	margin-left: 0;
+	border-bottom-right-radius: 3px;
+	border-top-right-radius: 3px;
+	margin-left: -3px;
 }
 
 .logo-nav-bar {
@@ -73,14 +76,16 @@ header {
 	width: 600px;
 	padding: 7px;
 	border: 1px solid #c0c0c0;
-	border-radius: 2px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
 }
 .nav-bar-search-button {
-	margin-left: -10px;
-	width: 60px;
+	margin-left: -7px;
+	width: 65px;
 	padding: 7px;
 	border: 1px solid #c0c0c0;
-	border-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
 }
 .nav-bar-right-buttons {
 	float: right;
@@ -112,8 +117,8 @@ header {
 .embeded-video iframe {
 	padding: 0;
 	width: 870px;
-    height: 480px;
-    border: none;
+	height: 480px;
+	border: none;
 }
 
 .video-author-details {
@@ -139,16 +144,19 @@ header {
 .video-left-description-icons {
 	display: inline-block;
 }
-.avatar-subscribe-right {
+.avatar-infos-subscribe {
 	/*border: 1px solid purple;*/
 	display: inline-block;
 	padding-bottom: 12px;
 }
 .avatar-pic {
 	margin: 11px 10px 0 15px;
+	/*border: 1px solid green;*/
 }
 .avatar-name {
 	margin-bottom: 5px;
+	font-weight: 550;
+	font-size: 15px;
 	/*border: 1px solid red;*/
 }
 
@@ -184,7 +192,7 @@ aside {
 	/*background-color: #ffffff;*/
 	width: 340px;
 	float: right;
-	padding: 15px;
+	padding: 10px 15px;
 	margin-bottom: 30px;
 }
 
@@ -202,8 +210,9 @@ aside {
 	margin-left: 10px;
 }
 .sidebar-thumbnails {
+	/*height: 100px;*/
 	width: 180px;
-	height: 100px;
+	max-height: 100px;
 }
 .thumbnail-description {
 	width: 150px;
@@ -213,6 +222,7 @@ aside {
 .recommended-videos {
 	display: flex;
 	margin-bottom: 12px;
+	padding: 0;
 }
 .thumb-title {
 	font-weight: bolder;
