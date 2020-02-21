@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Youtube-clone</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://kit.fontawesome.com/668d372fa7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo-nav-bar">
+            <!--i class="fas fa-bars"></i-->
+            <img class="img-logo" src="img/téléchargement.png" alt="youtube logo">
+        </div>
+
+        <div class="search-nav-bar">
+            <form action="#">
+                <input type="text" placeholder="Search.." name="search">
+                <button class="nav-bar-search-button" type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+
+        <div class="nav-bar-right-buttons">
+            <span class="navbar-right-icons"><i class="fas fa-th"></i></span>
+            <span class="navbar-right-icons"><i class="fas fa-bell"></i></span>
+            <button type="submit" class="navbar-right-icons"><i class="fas fa-upload"></i></button>
+            <button class="sign-in-button navbar-right-icons">Sign in</button>
+        </div>
+    </header>
+
+
+    <main class="container">
+        <div class="main">
+            <section>
+                <h1>Video Description Section</h1>
+                <div class="embeded-video">
+                    <iframe src="https://www.youtube.com/embed/Qqx_wzMmFeA"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+
+                <div class="video-description">
+                    <div class="video-description-main">
+                        <p class="video-title">Javascript Tutorial for Beginners</p>
+
+                        <div class="video-author-details">
+                            <a href="#"><img src="img/avatar.jpg" alt="avatar-pic" class="avatar-pic"></a>
+                            <div class="avatar-infos-subscribe">
+                                <a href="#">
+                                    <p class="avatar-name">Clever Programmer</p>
+                                </a>
+
+                                <div class="chanel-subscribe-button">
+                                    <button class="subscribe-btn-red" type="submit">Subscribe</button>
+                                    <button class="number-of-suscribers-btn" type="submit">750</button>
+                                </div>
+
+                            </div>
+                            <h2 class="number-of-views">5,000 views</h2>
+                        </div>
+
+
+                        <hr>
+
+                        <div class="video-description-icons">
+                            <div class="video-left-description-icons">
+                                <a class="icon-desc" href="#">
+                                    <div class="icon1"><i class="fas fa-plus"></i></div><span>Add to</span>
+                                </a>
+                                <a class="icon-desc" href="#">
+                                    <div class="icon1"><i class="fas fa-share"></i></div><span>Share</span>
+                                </a>
+                                <a class="icon-desc" href="#">
+                                    <div class="icon1"><i class="fas fa-ellipsis-h"></i></div><span>More</span>
+                                </a>
+                            </div>
+
+                            <div class="video-right-description-icons">
+                                <a class="icon-desc" href="#">
+                                    <div class="icon1"><i class="fas fa-thumbs-up"></i></div><span>845</span>
+                                </a>
+                                <a class="icon-desc" href="#">
+                                    <div class="icon1"><i class="fas fa-thumbs-down"></i></div><span>25</span>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <article class="video-description-details">
+                        <h4 class="video-description-details-published-date">Published on Feb 27, 2014</h4>
+                        <p class="video-information">How do you contribute to open source? In this video, I'll describe
+                            the easiest way to make a simple contribution to an open source project -- without using the
+                            command line, a text editor, "forking a repo", or even touching Git outside of Github. I'll
+                            also describe what kinds of contributions open source software projects are typically
+                            looking for. As an example, I use submitting a student solution to a web development
+                            exercise from The Odin Project, a free online curriculum for learning web development with
+                            Ruby on Rails. You can find more information about that project at http://theodinproject.com
+                        </p>
+
+                        <hr>
+
+                        <p class="show-more">SHOW MORE</p>
+                    </article>
+                </div>
+            </section>
+
+            <section class="video-comments">
+                <h1>Video Comments</h1>
+                <div>
+                    <p>loading...</p>
+                </div>
+                <hr>
+                <div>
+                    <p>loading...</p>
+                </div>
+                <hr>
+                <div>
+                    <p>loading...</p>
+                </div>
+                <hr>
+                <div>
+                    <p>loading...</p>
+                </div>
+                <hr>
+            </section>
+
+        </div>
+
+        <aside class="sidebar">
+            <div class="sidebar-headings">
+                <span>Up next</span>
+                <span class="autoplay">Autoplay</span>
+                <i class="fas fa-info"></i>
+                <i class="fas fa-toggle-on"></i>
+            </div>
+
+            <div class="recommended-videos">
+                <a>
+                    <img src="img/aside.png" alt="AWS Solutions" class="sidebar-thumbnails">
+                    <div class="thumbnail-description">
+                        <p class="thumb-title">Why Get AWS Solutions Architect?</p>
+                        <p class="thumb-avatar-name">freeCodeCamp.org</p>
+                        <p class="thumb-number-of-views">3,000 Views</p>
+                    </div>
+                </a>
+            </div>
+
+            <hr>
+
+            <div class="recommended-videos">
+                <img src="img/aside2.png" alt="React in 5hours" class="sidebar-thumbnails">
+                <div class="thumbnail-description">
+                    <p class="thumb-title">React in 5hours</p>
+                    <p class="thumb-avatar-name">freeCodeCamp.org</p>
+                    <p class="thumb-number-of-views">3,000 Views</p>
+                </div>
+            </div>
+            <div class="recommended-videos">
+                <img src="img/aside3.webp" alt="JavaScript Tutorial for Beginners - Full Course in 8 Hours [2020]"
+                    class="sidebar-thumbnails">
+                <div class="thumbnail-description">
+                    <p class="thumb-title">JavaScript Tutorial for Beginners </p>
+                    <p class="thumb-avatar-name">Clever Programmer</p>
+                    <p class="thumb-number-of-views">3,000 Views</p>
+                </div>
+            </div>
+            <div class="recommended-videos">
+                <img src="img/aside4.webp" alt="Learn CSS in 20mins" class="sidebar-thumbnails">
+                <div class="thumbnail-description">
+                    <p class="thumb-title">Learn CSS in 20mins</p>
+                    <p class="thumb-avatar-name">Webdev Simplified</p>
+                    <p class="thumb-number-of-views">3,000 Views</p>
+                </div>
+            </div>
+
+            <div class="recommended-videos">
+                <a>
+                    <img src="img/aside.png" alt="AWS Solutions" class="sidebar-thumbnails">
+                    <div class="thumbnail-description">
+                        <p class="thumb-title">Why Get AWS Solutions Architect?</p>
+                        <p class="thumb-avatar-name">freeCodeCamp.org</p>
+                        <p class="thumb-number-of-views">3,000 Views</p>
+                    </div>
+                </a>
+            </div>
+            <div class="recommended-videos">
+                <img src="img/aside2.png" alt="React in 5hours" class="sidebar-thumbnails">
+                <div class="thumbnail-description">
+                    <p class="thumb-title">React in 5hours</p>
+                    <p class="thumb-avatar-name">freeCodeCamp.org</p>
+                    <p class="thumb-number-of-views">3,000 Views</p>
+                </div>
+            </div>
+            <div class="recommended-videos">
+                <img src="img/aside3.webp" alt="JavaScript Tutorial for Beginners - Full Course in 8 Hours [2020]"
+                    class="sidebar-thumbnails">
+                <div class="thumbnail-description">
+                    <p class="thumb-title">JavaScript Tutorial for Beginners </p>
+                    <p class="thumb-avatar-name">Clever Programmer</p>
+                    <p class="thumb-number-of-views">3,000 Views</p>
+                </div>
+            </div>
+            <div class="recommended-videos">
+                <img src="img/aside4.webp" alt="Learn CSS in 20mins" class="sidebar-thumbnails">
+                <div class="thumbnail-description">
+                    <p class="thumb-title">Learn CSS in 20mins</p>
+                    <p class="thumb-avatar-name">Webdev Simplified</p>
+                    <p class="thumb-number-of-views">3,000 Views</p>
+                </div>
+            </div>
+            <div class="recommended-videos">
+                <img src="img/aside3.webp" alt="JavaScript Tutorial for Beginners - Full Course in 8 Hours [2020]"
+                    class="sidebar-thumbnails">
+                <div class="thumbnail-description">
+                    <p class="thumb-title">JavaScript Tutorial for Beginners </p>
+                    <p class="thumb-avatar-name">Clever Programmer</p>
+                    <p class="thumb-number-of-views">3,000 Views</p>
+                </div>
+            </div>
+            <div class="recommended-videos">
+                <img src="img/aside4.webp" alt="Learn CSS in 20mins" class="sidebar-thumbnails">
+                <div class="thumbnail-description">
+                    <p class="thumb-title">Learn CSS in 20mins</p>
+                    <p class="thumb-avatar-name">Webdev Simplified</p>
+                    <p class="thumb-number-of-views">3,000 Views</p>
+                </div>
+            </div>
+            <div class="recommended-videos">
+                <img src="img/aside2.png" alt="React in 5hours" class="sidebar-thumbnails">
+                <div class="thumbnail-description">
+                    <p class="thumb-title">React in 5hours</p>
+                    <p class="thumb-avatar-name">freeCodeCamp.org</p>
+                    <p class="thumb-number-of-views">3,000 Views</p>
+                </div>
+            </div>
+
+            <hr>
+
+            <p class="show-more">SHOW MORE</p>
+        </aside>
+    </main>
+
+    <footer>
+        <div class="footer-start">
+            <img class="img-logo" src="img/téléchargement.png" alt="youtube-logo">
+            <div class="footer-buttons">
+                <button>Language: English <i class="fas fa-caret-down"></i></button>
+                <button>Location: Africa <i class="fas fa-caret-down"></i></button>
+                <button>Restricted Mode: Off <i class="fas fa-caret-down"></i></button>
+                <button><i class="fas fa-hourglass-end"></i> History</button>
+                <button>Help <i class="far fa-question-circle"></i></button>
+            </div>
+        </div>
+
+
+        <hr>
+
+        <div class="footer-links1">
+            <ul>
+                <li><a href="#">About</a> </li>
+                <li><a href="#">Press</a> </li>
+                <li><a href="#">Copyright</a></li>
+                <li><a href="#">Advertise</a></li>
+                <li><a href="#">creators</a></li>
+                <li><a href="#">developers</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-links2">
+            <ul>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Policy & Safety</a></li>
+                <li><a href="#">Test New Features</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>

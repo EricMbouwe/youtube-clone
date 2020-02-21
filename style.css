@@ -1,0 +1,268 @@
+/*GENERAL RULES*/
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	background-color: #eeeeee;
+	margin: 0;
+	padding: 0;
+}
+a,
+ul {
+	text-decoration: none;
+	list-style-type: none;
+	color: black;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	margin: 0;
+}
+h1 {
+	display: none;
+}
+
+/*STYLE*/
+.container {
+	/*margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;*/
+	margin: 10px auto;
+	width: 1250px;
+	padding: 10px;
+}
+header {
+	display: flex;
+	background-color: #ffffff;
+	padding: 5px;
+}
+
+.img-logo {
+	width: 100px;
+	height: 45px;
+	/*border: 1px solid red;*/
+}
+
+.subscribe-btn-red {
+	color: #eeeeee;
+	background-color: red;
+	padding: 4px;
+	border: none;
+	width: 100px;
+	border-bottom-left-radius: 3px;
+	border-top-left-radius: 3px;
+	margin-right: 0;
+}
+.number-of-suscribers-btn {
+	color: rgb(41, 38, 38);
+	background-color: white;
+	padding: 4px;
+	border: none;
+	width: 40px;
+	border-bottom-right-radius: 3px;
+	border-top-right-radius: 3px;
+	margin-left: -3px;
+}
+
+.logo-nav-bar {
+	margin-left: 40px;
+}
+
+.search-nav-bar {
+	margin: 8px 0 0 150px;
+}
+.search-nav-bar input {
+	width: 600px;
+	padding: 7px;
+	border: 1px solid #c0c0c0;
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px;
+}
+.nav-bar-search-button {
+	margin-left: -4px;
+	width: 65px;
+	padding: 7px;
+	border: 1px solid #c0c0c0;
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
+}
+.nav-bar-right-buttons {
+	float: right;
+	margin: 13px 0 0px 190px;
+}
+.navbar-right-icons {
+	margin-left: 10px;
+}
+.sign-in-button {
+	margin-left: 10px;
+	background-color: #bf360c;
+	color: #eeeeee;
+	padding: 4px;
+	border: none;
+	width: 50px;
+	border-radius: 3px;
+}
+
+.main {
+	width: 870px;
+	float: left;
+	margin-right: 10px;
+}
+.show-more {
+	text-align: center;
+	font-weight: 550;
+}
+
+.embeded-video iframe {
+	padding: 0;
+	width: 870px;
+	height: 480px;
+	border: none;
+}
+
+.video-author-details {
+	display: flex;
+	margin: 0;
+	/*border: 1px solid green;*/
+}
+.video-title {
+	margin: 10px;
+	font-size: 25px;
+}
+
+.number-of-views {
+	margin: 50px 0 0 500px;
+}
+
+.video-description-main {
+	/*background-color: #ffffff;*/
+	margin-top: 5px;
+	padding: 10px;
+}
+
+.video-left-description-icons {
+	display: inline-block;
+}
+.avatar-infos-subscribe {
+	/*border: 1px solid purple;*/
+	display: inline-block;
+	padding-bottom: 12px;
+}
+.avatar-pic {
+	margin: 11px 10px 0 15px;
+	/*border: 1px solid green;*/
+}
+.avatar-name {
+	margin-bottom: 5px;
+	font-weight: 550;
+	font-size: 15px;
+	/*border: 1px solid red;*/
+}
+
+.icon1 {
+	display: inline-block;
+	margin-right: 5px;
+}
+.icon-desc {
+	margin-right: 20px;
+}
+.video-right-description-icons {
+	display: flex;
+	float: right;
+}
+
+.video-description-details {
+	/*background-color: #ffffff;*/
+	margin-top: 10px;
+	padding: 10px;
+}
+
+.video-comments {
+	/*background-color: #ffffff;*/
+	margin-top: 10px;
+	margin-bottom: 60px;
+	padding: 10px;
+}
+.video-comments p {
+	text-align: center;
+}
+
+aside {
+	/*background-color: #ffffff;*/
+	width: 340px;
+	float: right;
+	padding: 10px 15px;
+	margin-bottom: 30px;
+}
+
+.sidebar-headings {
+	margin-bottom: 10px;
+}
+.sidebar-headings span {
+	font-weight: bold;
+}
+
+.autoplay {
+	margin-left: 170px;
+}
+.sidebar-headings i {
+	margin-left: 10px;
+}
+.sidebar-thumbnails {
+	/*height: 100px;*/
+	width: 180px;
+	max-height: 100px;
+}
+.thumbnail-description {
+	width: 150px;
+	margin-left: 10px;
+	float: right;
+}
+.recommended-videos {
+	display: flex;
+	margin-bottom: 12px;
+	padding: 0;
+}
+.thumb-title {
+	font-weight: bolder;
+	margin-bottom: 5px;
+}
+.thumb-number-of-views,
+.thumb-avatar-name {
+	font-size: 10px;
+	margin: 0;
+}
+
+footer {
+	background-color: #ffffff;
+	clear: both;
+	padding: 20px 70px 50px 70px;
+}
+
+.footer-start {
+	display: flex;
+}
+footer .img-logo {
+	margin-top: 1px;
+	margin-bottom: 0;
+}
+.footer-buttons {
+	margin: 18px 0 0 30px;
+}
+.footer-buttons button {
+	margin-right: 20px;
+}
+.footer-links1 ul,
+.footer-links2 ul {
+	display: flex;
+}
+
+.footer-links1 ul li,
+.footer-links2 ul li {
+	margin-right: 20px;
+	font-weight: 550;
+}
+.footer-links2 {
+	font-size: 11px;
+}
