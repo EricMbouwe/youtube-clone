@@ -13,7 +13,7 @@ Open the index.html file in your browser
 
 ##Live Share 
 You can access our project using the link below:
-https://raw.githack.com/EricMbouwe/youtube-clone/youtube-clone-homepage/index.html
+https://raw.githack.com/EricMbouwe/youtube-clone/master/index.html
 
 ## Authors:
 
