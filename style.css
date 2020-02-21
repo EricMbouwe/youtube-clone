@@ -181,8 +181,9 @@ header {
 	margin-bottom: 60px;
 	padding: 10px;
 }
-.video-comments p {
+.loader {
 	text-align: center;
+	padding: 10px 0 10px 0;
 }
 
 aside {
