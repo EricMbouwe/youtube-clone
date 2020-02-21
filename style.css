@@ -25,9 +25,10 @@ h1 {
 
 /*STYLE*/
 .container {
-	margin-left: auto;
+	/*margin-left: auto;
 	margin-right: auto;
-	margin-top: 10px;
+	margin-top: 10px;*/
+	margin: 10px auto;
 	width: 1250px;
 	padding: 10px;
 }
@@ -35,7 +36,6 @@ header {
 	display: flex;
 	background-color: #ffffff;
 	padding: 5px;
-	width: 100%;
 }
 
 .img-logo {
@@ -76,16 +76,16 @@ header {
 	width: 600px;
 	padding: 7px;
 	border: 1px solid #c0c0c0;
-    border-top-left-radius: 2px;
-    border-bottom-left-radius: 2px;
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px;
 }
 .nav-bar-search-button {
-	margin-left: -7px;
+	margin-left: -4px;
 	width: 65px;
 	padding: 7px;
 	border: 1px solid #c0c0c0;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
 }
 .nav-bar-right-buttons {
 	float: right;
