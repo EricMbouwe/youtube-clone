@@ -292,4 +292,8 @@ footer .img-logo {
 		right: 0;
 		left: 0;
 	}
+
+	.nav-bar-right-buttons{
+		display: none;
+	}
   }
