@@ -264,3 +264,32 @@ footer .img-logo {
 .footer-links2 {
 	font-size: 11px;
 }
+
+
+/*RESPONSIVE RULES*/
+
+@media only screen and (max-width: 480px) {
+	body {
+	  background-color: purple;
+	  width: 100%;
+	  margin: 0;
+	  padding: 0;
+	}
+
+	header, footer{
+		width: 100%;
+		position: relative;
+	}
+
+	header{
+		top: 0;
+		right: 0;
+		left: 0;
+	}
+
+	footer{
+		bottom: 0;
+		right: 0;
+		left: 0;
+	}
+  }
