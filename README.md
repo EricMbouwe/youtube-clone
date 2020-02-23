@@ -13,7 +13,7 @@ Open the index.html file in your browser
 
 ##Live Share 
 You can access our project using the link below :
-https://rawcdn.githack.com/EricMbouwe/youtube-clone/3f209517e5f780088f159b3909dd3f27ff41d842/index.html
+https://raw.githack.com/EricMbouwe/youtube-clone/master/index.html
 
 ## Authors:
 
